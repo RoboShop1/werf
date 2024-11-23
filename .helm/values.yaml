@@ -1,0 +1,12 @@
+replicas: 2
+env:
+  - name: catalogue
+    value: localhost
+  - name: cart
+    value: localhost
+  - name: shipping
+    value: localhost
+  - name: user
+    value: localhost
+  - name: payment
+    value: localhost
