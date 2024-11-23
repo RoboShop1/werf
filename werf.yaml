@@ -1,0 +1,6 @@
+project: demo-app
+configVersion: 1
+
+---
+image: wfrontend
+dockerfile: frontend.Dockerfile
