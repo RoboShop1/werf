@@ -4,7 +4,7 @@ configVersion: 1
 
 deploy:
   helmChartDir: ./helm
-  helmRelease: "demo"
+  helmRelease: demo
   namespace: default
 
 ---
