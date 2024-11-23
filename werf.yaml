@@ -1,6 +1,14 @@
 project: demo-app
 configVersion: 1
 
+
+deploy:
+  helmChartDir: ./helm
+  helmRelease: "demo"
+  namespace: default
+
 ---
 image: wfrontend
 dockerfile: frontend.Dockerfile
+
+
