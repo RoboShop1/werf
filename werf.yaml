@@ -10,7 +10,5 @@ deploy:
 ---
 image: sfrontend
 dockerfile: frontend.Dockerfile
----
-docker:
-  WORKDIR: /app
+
 
