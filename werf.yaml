@@ -8,7 +8,7 @@ deploy:
   namespace: default
 
 ---
-image: wfrontend
+image: sfrontend
 dockerfile: frontend.Dockerfile
 
 

@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
     - name: c1
-      image: {{ $.Values.werf.image.wfrontend }}
+      image: {{ $.Values.werf.image.sfrontend }}
