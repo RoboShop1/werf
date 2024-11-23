@@ -3,8 +3,7 @@ configVersion: 1
 
 
 deploy:
-
-  helmRelease: demo
+  helmRelease: rfrontend
   namespace: default
 
 ---
